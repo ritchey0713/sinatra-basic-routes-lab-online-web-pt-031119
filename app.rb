@@ -10,6 +10,10 @@ class App < Sinatra::Base
     "my new user form"
   end
   
+  post "/signup" do 
+    "submit the form and do stuff"
+  end 
+  
   get "/hometown" do 
     "My hometown is Columbus"
   end 
