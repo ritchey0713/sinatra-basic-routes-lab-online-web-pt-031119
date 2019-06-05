@@ -6,8 +6,8 @@ class App < Sinatra::Base
     "hello world"
   end 
   
-  get "/name" do 
-    "My name is Bob"
+  get "/signup" do 
+    "my new user form"
   end
   
   get "/hometown" do 
