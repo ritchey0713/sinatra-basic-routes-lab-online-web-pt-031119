@@ -22,6 +22,10 @@ class App < Sinatra::Base
     "update our user"
   end 
   
+  delete "/user" do 
+    "deletes the user"
+  end 
+  
   get "/hometown" do 
     "My hometown is Columbus"
   end 
