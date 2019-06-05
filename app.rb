@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
   
   get '/' do  #index 
-    "hello world"
+    erb: 'index.html.erb'
   end 
   
   get "/signup" do #create 
