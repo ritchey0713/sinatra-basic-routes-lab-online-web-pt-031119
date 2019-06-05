@@ -14,6 +14,14 @@ class App < Sinatra::Base
     "submit the form and do stuff"
   end 
   
+  get '/user-edit' do 
+    "edit user form"
+  end 
+  
+  patch "/user-edit" do 
+    "update our new user"
+  end 
+  
   get "/hometown" do 
     "My hometown is Columbus"
   end 
