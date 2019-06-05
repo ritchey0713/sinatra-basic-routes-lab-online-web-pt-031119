@@ -19,7 +19,7 @@ class App < Sinatra::Base
   end 
   
   patch "/user-edit" do 
-    "update our new user"
+    "update our user"
   end 
   
   get "/hometown" do 
