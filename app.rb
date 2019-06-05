@@ -2,27 +2,31 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   
-  get '/' do 
+  get '/' do  #index 
     "hello world"
   end 
   
-  get "/signup" do 
+  get "/signup" do #create 
     "my new user form"
   end
+  
+  get '/user' do 
+    "display user data"
+  end 
   
   post "/signup" do 
     "submit the form and do stuff"
   end 
   
-  get '/user-edit' do 
+  get '/user-edit' do #edit 
     "edit user form"
   end 
   
-  patch "/user-edit" do 
+  patch "/user-edit" do #update
     "update our user"
   end 
   
-  delete "/user" do 
+  delete "/user" do #destroy 
     "deletes the user"
   end 
   
