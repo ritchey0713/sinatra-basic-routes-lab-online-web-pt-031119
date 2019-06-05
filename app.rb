@@ -18,7 +18,6 @@ class App < Sinatra::Base
     "display user data"
   end 
   
-  
   get '/user-edit' do #edit 
     "edit user form"
   end 
