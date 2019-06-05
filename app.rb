@@ -10,7 +10,7 @@ class App < Sinatra::Base
     "my new user form"
   end
   
-  get '/user' do 
+  get '/user' do #show/ reader
     "display user data"
   end 
   
