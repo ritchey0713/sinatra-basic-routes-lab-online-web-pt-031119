@@ -10,13 +10,14 @@ class App < Sinatra::Base
     "my new user form"
   end
   
+  post "/signup" do 
+    "submit the form and do stuff"
+  end 
+  
   get '/user' do #show/ reader
     "display user data"
   end 
   
-  post "/signup" do 
-    "submit the form and do stuff"
-  end 
   
   get '/user-edit' do #edit 
     "edit user form"
